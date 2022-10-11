@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Grocery | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+<body>
+
+    <div class="header">
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="images/GGLogoBig2.png" width="400px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <span class="material-symbols-outlined">shopping_bag</span>
+            <img src="images/menu.png" class="menu-icon" onclick="menuToggle()">
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Body the BEST <br> Of What It Needs!</h1>
+                <p>Optimal performance begins with the basics. Begin with the best nutrition <br> and the rest will follow.</p>
+                <a href="" class="btn">Explore Now &#8594; </a>
+            </div>
+            <div class="col-2">
+                <img src="images/image2.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----- featured nuts ------->
+<div class="nuts">
+    <div class="small-container">
+        <h2 class="title">Featured Nuts</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="images/almonds.png">
+                <h4>Almonds</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$7.00/lb</p>
+            </div>
+            <div class="col-3">
+                <img src="images/walnuts.png">
+                <h4>Walnuts</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$7.00/lb</p>
+            </div>
+            <div class="col-3">
+                <img src="images/cashews.png">
+                <h4>Cashews</h4>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <p>$7.00/lb</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----- featured veggies ------->
+<div class="small-container">
+    <h2 class="title">Featured veggies</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/broccoli.png">
+            <h4>Broccoli</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$3.00/lb</p>
+        </div>
+        <div class="col-4">
+            <img src="images/eggplant.png">
+            <h4>Eggplant</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$4.00/lb</p>
+        </div>
+        <div class="col-4">
+            <img src="images/bellpepper.png">
+            <h4>Bell Peppers</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$3.00/lb</p>
+        </div><div class="col-4">
+            <img src="images/avocado.png">
+            <h4>Avocado</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$3.00/lb</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Arrivals</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/coffee.png">
+            <h4>Coffee Beans</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$3.00/lb</p>
+        </div>
+        <div class="col-4">
+            <img src="images/pumpkins.png">
+            <h4>Pumpkins</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$4.00/lb</p>
+        </div>
+        <div class="col-4">
+            <img src="images/apples.png">
+            <h4>Honey Crisp Apples</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$3.00/lb</p>
+        </div><div class="col-4">
+            <img src="images/squash.png">
+            <h4>Heirloom Squash</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>$3.00/lb</p>
+        </div>
+    </div>
+</div>
+
+<!-------Offer--------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/pie.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Only available from Green Grocery</p>
+                <h1>Our Organic Homemade Apple Pie</h1>
+                <small>Our organic homemade apple pie is made in our kitchen from scratch daily and served fresh!</small>
+                <a href="" class="btn">Buy Now &#8594</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------testimonials------>
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="bi bi-quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sit. At odio placeat tempora. Doloremque iusto libero quo, maxime placeat ea ad ullam earum nisi, obcaecati ab consequuntur ratione veniam.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div> 
+                <img src="images/shopper1.png">
+                <h3>Douglas Simpson</h3>
+            </div><div class="col-3">
+                <i class="bi bi-quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sit. At odio placeat tempora. Doloremque iusto libero quo, maxime placeat ea ad ullam earum nisi, obcaecati ab consequuntur ratione veniam.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div> 
+                <img src="images/shopper2.png">
+                <h3>Jen French</h3>
+            </div><div class="col-3">
+                <i class="bi bi-quote"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, sit. At odio placeat tempora. Doloremque iusto libero quo, maxime placeat ea ad ullam earum nisi, obcaecati ab consequuntur ratione veniam.</p>
+                <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div> 
+                <img src="images/shopper3.png">
+                <h3>Lisa Pemberton</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------Brands------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png">
+            </div><div class="col-5">
+                <img src="images/logo-godrej.png">
+            </div><div class="col-5">
+                <img src="images/logo-philips.png">
+            </div><div class="col-5">
+                <img src="images/logo-oppo.png">
+            </div><div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------Footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download our app for Android and ios.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" />
+                    <img src="images/app-store.png" />
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/GGLogoWhite.png" />
+                <p>Our goal is to offer the very best organic items for the health and wellbeing of our customers.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog</li>
+                    <li>Organic Policy</li>
+                    <li>Membership</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy;  <script>document.write(new Date().getFullYear());</script>- Kyle J Rhoden</p>
+    </div>
+</div>
+<!---------JS for menu toggle------->
+<script>
+    var menuItems = document.getElementById("menuItems");
+
+    menuItems.style.maxHeight = "0px";
+
+    function menuToggle(){
+        if(menuItems.style.maxHeight == "0px") 
+        {
+            (menuItems.style.maxHeight = "200px")
+        }
+        else
+        {
+            (menuItems.style.maxHeight = "0px") 
+        }
+     
+
+    }
+</script>
+
+    
+</body>
+</html>
